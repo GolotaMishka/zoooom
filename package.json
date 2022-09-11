@@ -10,6 +10,9 @@
   },
   "author": "Mykhailo Holota",
   "license": "ISC",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "core-js": "^3.21.1",
     "express": "^4.17.1",
