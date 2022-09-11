@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
+    "start:dev-server": "npx nodemon server.js",
     "dev": "webpack-dev-server --config config/webpack.config.development.js",
     "build": "webpack --config config/webpack.config.production.js"
   },
@@ -19,8 +20,11 @@
     "favicons": "^6.2.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
     "react-router-dom": "^5.2.0",
-    "react-hot-loader": "^4.13.0"
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
@@ -41,6 +45,7 @@
     "favicons-webpack-plugin": "^5.0.2",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
+    "nodemon": "^2.0.19",
     "postcss": "^8.4.8",
     "postcss-loader": "^6.2.1",
     "postcss-scss": "^4.0.4",
