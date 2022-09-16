@@ -5,7 +5,6 @@ import { ACTIONS, RTCConfig } from '../constants';
 
 export const LOCAL_VIDEO = 'LOCAL_VIDEO';
 
-
 export function useWebRTC(roomID) {
   const [clients, updateClients] = useStateWithCallback([]);
 
